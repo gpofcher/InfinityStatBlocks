@@ -1,0 +1,79 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=PT+Sans:wght@400;700&display=swap');
+
+html {
+  font-family: 'PT Sans', sans-serif;
+  min-width: 292px;
+  color: #2a2f55;
+}
+
+/* #region titleBlock */
+#adversaryStrength {
+  font-family: 'Orbitron', 'PT Sans', sans-serif;
+  color: #2a2f55;
+  background-color: #7bc1d8;
+  text-transform: uppercase;
+  margin: 0em;
+  padding: .2em;
+
+}
+
+#adversaryName {
+    font-family: 'Orbitron', 'PT Sans', sans-serif;
+    color: #bcdeed;
+    background-color: #2a2f55;
+    border-color: #7bc1d8;
+    border-width: 2px;
+    border-style: solid;
+    text-transform: uppercase;
+    margin: 0em;
+    padding: .2em;
+    font-size: 1.5em;
+
+}
+/* #endregion titleBlock */
+
+/* region tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: 3px 0px 0px;
+  border: 2px solid #2a2f55;
+}
+
+td, th {
+  border: 1px solid #2a2f55;
+  text-align: center;
+}
+
+thead {
+  background-color: #2a2f55;
+  color: #e8a91f;
+  font-family: 'Orbitron', 'PT Sans', sans-serif; 
+}
+
+tbody th{
+    background-color: #bcdeed;
+}
+/* #endregion tables */
+
+/* #region drawer */
+#drawer {
+  background-color: #7bc1d8;
+  margin: 0px;
+  padding: .5em;
+}
+
+h2 {
+    margin:0px;
+    font-family: 'Orbitron', 'PT Sans', sans-serif;
+}
+
+ul, p {
+    margin: 0px 0px .5em;
+}
+
+.abilityname {
+    font-weight: 700;
+}
