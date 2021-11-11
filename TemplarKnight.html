@@ -5,8 +5,8 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <caption class="enemyStrength">Elite</caption>
-        <h1>Templar Knight</h1>
+        <caption id="adversaryStrength">Elite</caption>
+        <h1 id="adversaryName">Templar Knight</h1>
 
         <table id="ATTRIBUTES">
             <thead>
@@ -67,12 +67,27 @@
         <div id="drawer">
             <h2>ATTACKS</h2>
             <ul>
+                <li><span class="abilityname">AR sword:</span> Melee, 1+5N damage, Unbalanced, Parry 3 (+3N cover soak vs melee), Vicious 1, Expert 1 (successful tests grant +1 momentum) </li>
+                <li><span class="abilityname">AR pistol:</span> Reach/Close, 1+5N damage, Burst 1, 1H, Vicious 2, Expert 1 (successful tests grant +1 momentum) </li>
+                
                 <li>
-                    <span class="abilityname">Expert sword:</span> Melee, 1+5N damage, Parry 3, Vicious 1, Expert 1
+                    <span class="abilityname">Templar Hacking Device:</span> CLAW-1, SWORD-O, SHIELD-0, GADGET-0, IC-2, UPGRADE Stop!
+                    <br>
+                    <i><span class="abilityname">Neural Hacking Socket:</span> Standard action to attach or detach. When attached, 1 bonus momentum, +1 complication range, susceptible to Neural breach effects.</i>
                 </li>
+                <ul>
+                    <li><span class="abilityname">CLAW-1 Gotcha!:</span> 1+4N damage, Immobilising* (on Effect: IF target is Hindered THEN target becomes Stuck; ELSEIF attacker spends 1 momentum THEN target becomes Stuck; ELSE target becomes Hindered.)</li>
+                    <li><span class="abilityname">IC-2 Redtape:</span> If bypass Test fails, attacker becomes Hindered. If already Hindered, they become Stuck.</li>
+                </ul>
             </ul>
+
             <H2>GEAR</H2>
+            <p>Deflector-1 (+1 difficulty to hack allies within Close range), Light Combat Armour, Templar tabard, comlog</p>
+
             <H2>SPECIAL ABILITIES</H2>
+            <ul>
+                <li><span class="abilityname">Boy Scout (2 or 4 Heat):</span> Deploy a Repeater for 2 heat, or a Stealth Repeater for 4 heat.</li>
+            </ul>
         </div>
                 
     </body>
