@@ -58,6 +58,10 @@ thead {
 tbody th{
     background-color: #bcdeed;
 }
+
+tbody td{
+  background-color: #ffffff;
+}
 /* #endregion tables */
 
 /* #region drawer */
